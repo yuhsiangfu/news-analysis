@@ -8,7 +8,7 @@ In this code, it will connect to chinatimes website and crawl news of a specific
 In this code, the news data will be processed by removing stopwords and user defined directory. The words of cleaned news data will be segmented from paragraphs by using the jieba library. Final, the segmented words statistics will be saved to json files in the "words" folder.<br />
 
 ## Words Visulization
-In this code, the words will be used to create TERMS-DOCS (TD) matrix, and TD matrix will be processed by using singular value decomposition (SVD) to reduce dimensions of TD matrix. Last, the multidimensional scaling (MDS) or t-distributed Stochastic Neighbor Embedding (t-SNE) is used to project the reduced TD matrix to a 2-d space by using for words visulization.<br />
+In this code, the words will be used to create a TERMS-DOCS (TD) matrix, and the TD matrix will be processed by using singular value decomposition (SVD) to reduce dimensions of TD matrix. Last, the multidimensional scaling (MDS) or t-distributed stochastic neighbor embedding (t-SNE) is used for words visulization to project the reduced TD matrix to a 2-d space.<br />
 
 # Contact
 1.If you have any questions please email to yuhisnag.fu@gmail.com.
